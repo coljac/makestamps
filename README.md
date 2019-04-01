@@ -60,11 +60,11 @@ For more info:
 
 To extract individual FITS stamp files for easier use, use the h5tofits utility:
 
-    python h5tofits.py <HDF5 file> <output dir>
+    python fits_extract.py <HDF5 file> <output dir>
 
 or
 
-    python h5tofits.py -c <list_of_objects> <HDF5 file> <output dir>
+    python fits_extract.py <HDF5 file> <output dir> <list_of_objects> 
 
 The list of objects can be either:
 - A text file with one object id per line
@@ -72,7 +72,7 @@ The list of objects can be either:
 
 For example:
 
-    python h5tofits.py -c 1234567, mycat_001.hdf5 outputs/
+    python <list_of_objects> mycat_001.hdf5 outputs/ 1234567,
 
 ## Structure of output file
 
