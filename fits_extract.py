@@ -112,5 +112,4 @@ if __name__ == "__main__":
     else:
         objids = None
 
-    print(objids)
     extract_objects(datastore, objids, outdir)
