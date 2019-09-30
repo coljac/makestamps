@@ -2,9 +2,8 @@ import requests
 import shutil
 from requests.auth import HTTPBasicAuth
 
-username = "cjacobs"
-# password = "cja70chips"
-password = "qEVgduvtARj"
+username = "username"
+password = "password"
 prefix = "https://desar2.cosmology.illinois.edu/DESFiles/desarchive/"
 
 def download_file(url, user=username, password=password):
