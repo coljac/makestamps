@@ -8,7 +8,7 @@ h5py==2.5.0
 idna==2.5
 ipython==5.4.1
 ipython-genutils==0.2.0
-numpy==1.12.1
+numpy==1.21.0
 olefile==0.44
 pandas==0.20.2
 pathlib2==2.3.0
